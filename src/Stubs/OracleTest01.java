@@ -14,6 +14,7 @@ public class OracleTest01 {
 
 	public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, IOException, SQLException {
 		// TODO Auto-generated method stub
+		//test this
 		
 		String sql1 = "Select INVENTORY_ITEM_ID, SEGMENT1 FROM INV.MTL_SYSTEM_ITEMS_B WHERE ORGANIZATION_ID = ? and SEGMENT1 = ?";
 		
